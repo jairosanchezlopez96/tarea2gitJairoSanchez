@@ -43,4 +43,15 @@ public class Jugador {
     this.id = id;
     this.votos = votos;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Jugador{nombre=").append(nombre);
+        sb.append(", votos=").append(votos);
+        sb.append(", id=").append(id);
+        sb.append('}');
+        return sb.toString();
+    }
+    
 }
