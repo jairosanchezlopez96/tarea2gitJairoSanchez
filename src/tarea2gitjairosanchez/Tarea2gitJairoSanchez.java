@@ -15,7 +15,7 @@ public class Tarea2gitJairoSanchez {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Jugador j1 = new Jugador("js",1,1);
     }
     
 }
